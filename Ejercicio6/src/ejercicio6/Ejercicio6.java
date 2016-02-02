@@ -15,6 +15,8 @@ public class Ejercicio6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Reloj objeto2 = new Reloj("Rolex", "Platino");
+        System.out.println("Objeto 2: " + objeto2.getMarca() + " - " + objeto2.getMaterial());
     }
-    
+
 }
