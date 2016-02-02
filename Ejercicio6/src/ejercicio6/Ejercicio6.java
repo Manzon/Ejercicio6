@@ -15,6 +15,8 @@ public class Ejercicio6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Computador objeto4 = new Computador(4, "Samsung");
+        System.out.println("Objeto 4: " + objeto4.getMarca() + " - " + objeto4.getRam());
     }
     
 }
