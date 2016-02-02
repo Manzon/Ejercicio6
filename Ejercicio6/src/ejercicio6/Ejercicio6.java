@@ -15,6 +15,9 @@ public class Ejercicio6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Televisor objeto3 = new Televisor("Sony", 34);
+        System.out.println("Objeto 3: " + objeto3.getMarca() + " - " + objeto3.getPulgadas());
+
     }
-    
+
 }
