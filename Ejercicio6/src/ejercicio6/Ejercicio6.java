@@ -15,8 +15,17 @@ public class Ejercicio6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        Celular objeto1 = new Celular("Motorola", 248984);
+        System.out.println("Objeto 2: " + objeto1.getMarca() + " - " + objeto1.getSerial());
+        
+        Reloj objeto2 = new Reloj("Rolex", "Platino");
+        System.out.println("Objeto 2: " + objeto2.getMarca() + " - " + objeto2.getMaterial());
+        Televisor objeto3 = new Televisor("Sony", 34);
+        System.out.println("Objeto 3: " + objeto3.getMarca() + " - " + objeto3.getPulgadas());
+
         Computador objeto4 = new Computador(4, "Samsung");
         System.out.println("Objeto 4: " + objeto4.getMarca() + " - " + objeto4.getRam());
     }
-    
+
 }
